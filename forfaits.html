@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forfaits</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="styles/forfaits.css">
+</head>
+<body>
+    <nav id="stick"></nav>
+    <script>
+    $(function(){
+        $("#stick").load("nav_bar.html")
+    });
+    </script>
+
+    <section class="container-forfaits">
+        <div class="forfait">
+            <h2>Lavage extérieur</h2>
+            <ul>
+                <li>Nettoyage au savon</li>
+                <li>Nettoyage vitres</li>
+                <li>Antirouille</li>
+            </ul>
+            <button onclick="document.location='reserve.html'">Réserver</button>
+        </div>
+        <div class="forfait">
+            <h2>Lavage intérieur</h2>
+            <ul>
+                <li>Aspirateur</li>
+                <li>Nettoyage surfaces dures</li>
+                <li>Sent bon</li>
+            </ul>
+            <button onclick="document.location='reserve.html'">Réserver</button>
+        </div>
+        <div class="forfait">
+            <h2>Lavage extérieur/intérieur</h2>
+            <ul>
+                <li>Nettoyage au savon</li>
+                <li>Aspirateur</li>
+                <li>Nettoyage surfaces dures</li>
+            </ul>
+            <button onclick="document.location='reserve.html'">Réserver</button>
+        </div>
+        <div class="forfait">
+            <h2>Deluxe</h2>
+            <ul>
+                <li>Cirage</li>
+                <li>Nettoyage surfaces molles</li>
+            </ul>
+            <button onclick="document.location='reserve.html'">Réserver</button>
+        </div>
+    </section>
+
+</body>
+</html>

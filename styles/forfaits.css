@@ -1,0 +1,45 @@
+
+
+.container-forfaits {
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: yellow;
+    }
+
+.container-forfaits .forfait {
+    color: red;
+    width: 33%;
+    border: 3px solid green;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.forfait h2 {
+
+}
+
+.forfait ul {
+    columns: 2;
+    text-align: left;
+}
+
+.forfait button {
+    background-color: #000433;
+    border: None;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.forfait button:hover {
+    background-color: #001863;
+}
