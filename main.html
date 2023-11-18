@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lave auto</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+
+    <div class="top-container">
+         <h1>Lave-auto</h1>
+        <span>(514) 793-3185 <br> <a style="color: #ffffff" href="mailto.emiliop1418@gmail.com">
+            emiliop1418@gmail.com</a></span>
+    </div>
+
+    <nav id="stick">
+    </nav>
+    <script>
+    $(function(){
+        $("#stick").load("nav_bar.html")
+    });
+    </script>
+
+    <!--<nav class="header" id="stick">
+        <ul class="home_buttons">
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="reserver.html">Réserver</a></li>
+            <li><a href="forfaits.html">Forfaits</a></li>
+            <li><a href="main.html">Accueil</a></li>
+        </ul>
+    </nav>-->
+
+    <div class="container1">
+        <div class="slider">
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+        </div>
+        <button onclick="document.location='reserve.html'" class="button"> Réserver un lavage</button>
+    </div>
+    <div class="container2">
+        <div class="comments">
+            <div class="comment">Service rapide et de qualité. Employés courtois et respectueux. <br><br>- Lyne Simard</div>
+            <div class="comment">Commentaire 2</div>
+            <div class="comment">Commentaire 3</div>
+        </div>
+    </div>
+<script src="scripts/sticki_header.js"></script>
+</body>
+</html>
